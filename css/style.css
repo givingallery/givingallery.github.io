@@ -1,0 +1,274 @@
+/* Global */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #37304C;
+	background-color:#ffffff;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #AFA7D4;
+	border-bottom: 1px solid #AFA7D4;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 1px solid transparent;
+}
+a:visited {
+	border-bottom: 1px solid transparent;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding: 3em 0em 5em 0em;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+
+
+/* Slide 1 */ 
+
+#slide1{
+	background: url(../images/gallery.jpg) no-repeat;
+	background-size: 100%;
+	color: #ffffff;
+	height: 70vh;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+#slide1 h1 {
+	font-size: 8em;
+	line-height: 0em;
+	font-weight: 700;
+}
+#slide1 h2 {
+	font-size: 2.5em;
+	line-height: 0em;
+	padding-bottom:20px;
+	letter-spacing: 0.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+
+
+/* Slide 2 */ 
+
+#slide2{
+	background-color:#ffffff;
+}
+#slide2 h1 {
+	font-size: 4em;
+	line-height: 0px;
+	color: #37304C;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+
+/* Slide 3 */ 
+
+#slide3{
+	background-color:#37304C;
+	color: #ffffff;
+}
+#slide3 h1 {
+	font-size: 4em;
+	line-height: 0px;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+#slide3 p {
+	font-size: 1em;
+	text-align: center;
+	display: block;
+	width: 100%;
+	line-height: 0em;
+	padding-top: 1em;
+}
+	.name {
+		text-transform: uppercase;
+	}
+
+.profile-circular {
+	width: 160px;
+	height: 160px;
+	background-size: cover;
+	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+	#albert {
+		background-image: url(../images/albert.png);
+	}
+	#michael {
+		background-image: url(../images/michael.jpg);
+	}
+	#blake {
+		background-image: url(../images/blake.jpg);
+	}
+	#justin {
+		background-image: url(../images/justin.png);
+	}
+	#vishaal {
+		background-image: url(../images/vishaal.jpg);
+	}
+
+
+
+
+/* Slide 4 */
+#slide4 h1 {
+	font-size: 4em;
+	line-height: 0px;
+	color:#37304C;
+	font-weight: 700;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	padding-bottom: 0.5em;
+}
+#slide4 h2 {
+	font-size: 2em;
+	text-align: center;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align:center;
+	width:100%;
+}
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	margin:5px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:1em 0;
+}
+
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+
+}
+
+
+
+
